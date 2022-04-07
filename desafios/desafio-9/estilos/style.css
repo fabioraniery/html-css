@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+p{
+    font-family: helvetica;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

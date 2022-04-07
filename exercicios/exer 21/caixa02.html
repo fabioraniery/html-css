@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(230, 230, 230);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: darkslategrey;
+            padding: 0.1em;
+            text-align: center;
+
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>lorem ipsulum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum numquam optio quasi accusamus doloribus sit fugit quae rem nam quam in, explicabo atque reprehenderit error, obcaecati voluptatum qui odit voluptatibus.
+            Sit, aperiam. Qui nobis mollitia quas sint harum magni! Temporibus eligendi ipsam laboriosam pariatur ullam. Aspernatur, quas commodi magnam expedita rerum facilis, obcaecati aliquid dicta voluptas dolore ducimus. Illum, adipisci.</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quidem aliquid provident voluptates doloremque architecto voluptas veniam modi! Officia itaque cum aperiam similique officiis. Eveniet fugiat voluptates omnis similique praesentium?
+                Nemo assumenda minus tempore ipsum distinctio? Omnis illo sapiente impedit! Vitae necessitatibus quisquam aliquid, reiciendis veritatis commodi sunt modi facilis accusamus inventore obcaecati quasi! Distinctio laboriosam quos asperiores dolorum at?
+                Quos consequuntur soluta facilis odit quae alias perspiciatis aperiam temporibus impedit laborum minus, iste tenetur aspernatur sit porro ullam eius tempore nobis, exercitationem pariatur dolores ex commodi? Sunt, neque blanditiis?</p>
+                <aside>
+                    <p>Artigo escrito por Fábio Raniery da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim asistindo as aulas do cursoemvideo</p>
+    </footer>
+</body>
+</html>
